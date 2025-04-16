@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </Reveal>
       </>
-      <div className="bg-[#f0f1f2] px-8 py-4">
+      <div className="bg-[#f0f1f2] px-4 lg:px-8 py-4">
         <ColoumnPPS />
       </div>
       <Footer />

@@ -61,7 +61,7 @@ export default function TrendingNews() {
             <span className="absolute top-2 left-2 text-[10px] uppercase font-semibold text-white bg-black bg-opacity-80 px-2 py-1 rounded">{item.tag}</span>
           </div>
           <div className="py-6 px-4">
-            <h2 className="text-[12px] lg:text-[20px] font-bold leading-snug text-black">{item.title}</h2>
+            <h2 className="text-[15px] lg:text-[20px] font-bold leading-snug text-black">{item.title}</h2>
             <p className="text-[12px] text-gray-500 mt-1 flex flex-row items-center gap-1.5 mb-3">
               BY <span className="font-bold text-black">{item.editor}</span>{" "}
               <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
