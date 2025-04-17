@@ -38,7 +38,15 @@ export default function HighlightNews() {
             <span>
               By <span className="font-semibold text-black">{dataUtama.author}</span>
             </span>
-            <span>• {dataUtama.date}</span>
+            <span className="self-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
+                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0" />
+                  <path d="M12 7v5l3 3" />
+                </g>
+              </svg>{" "}
+              {dataUtama.date}
+            </span>
             <span className="flex items-center gap-1">
               <FaRegCommentDots /> 0
             </span>
